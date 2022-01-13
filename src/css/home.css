@@ -1,0 +1,345 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner{
+    background-image: linear-gradient(to bottom, rgba(157, 14, 14, 0), #4f0707), url("../image/home.png");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+}
+
+.user {
+    width: 30%;
+    display: block;
+    padding: 10px;
+    position: absolute;
+    right: 2%;
+}
+.login {
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    display: inline;
+    margin-left: 20px;
+}
+.login-a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+
+.create {
+    width: 50%;
+    padding: 10px;
+    display: inline;
+    margin-left: 20px;
+}
+
+.create-button {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.logo-inputs {
+    top: 25%;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    font-size: 40px;
+    color: red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-weight: 600;
+    margin-left: 47%;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.inputs {
+    width: 70%;
+    margin-left: 15%;
+    padding: 10px;
+    margin-top: 2%;
+}
+
+.input-1 {
+    width: 30%;
+    padding: 10px;
+}
+
+svg {
+    margin-left: 13px;
+    height: 35px;
+    line-height: auto;
+    position: absolute;
+    color: #636f88;
+}
+.input-2{
+    margin-left: 10px;
+    width: 60%;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.container {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.head {
+    text-align: left;
+    color: #192f60;
+    font-weight:900;
+    margin-top: 20px;
+}
+
+.quick-title {
+    color: #8c96ab;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.card { 
+    width: 100%;
+    margin-top: 3%;
+    align-items: center;
+}
+
+.card-items {
+    width: 31%;
+    display: inline-block;
+    margin-top: 1%;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.card-img { 
+    width: 50%;
+    height: 150px;
+    float: left;
+}
+
+.card-text{
+    width: 50%;
+    float: left;
+    height: 150px;
+}
+
+.card-head {
+    margin: 10px 0px 10px 15px;
+    color: #192f60;
+    font-weight: 600;
+}
+
+.card-title {
+    margin: 0px 0px 0px 15px;
+    color: #8c96ab;
+    font-weight: normal;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+}
+
+.mr-10 {
+    margin-left: 3.5%;
+}
+
+.mb-3{
+    margin-top: 3%;
+}
+
+.empty{
+    height: 100px;
+}
+
+
+@media screen and (max-width: 1050px) {
+
+    .create-button{
+        margin-top: 10px;
+    }
+
+    .inputs {
+        width: 80%;
+        margin-left: 10%;
+        padding: 10px;
+        margin-top: 2%;
+    }
+
+    .card-items {
+        width: 48%;
+        display: inline-block;
+        margin-top: 1%;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        border: none;
+        border-radius: 0px 10px 10px 0px;
+    }
+    
+    
+    .mr-10 {
+        margin-left: 0px;
+    }
+
+    .sec-mr-10 {
+        margin-left: 3.5%;
+    }
+    
+    .mb-3{
+        margin-top: 3%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .create-button{
+        margin-top: 10px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+    
+    .inputs {
+        width: 96%;
+        padding: 10px;
+        margin-top: 2%;
+        margin-left: 0px;
+    }
+
+    .card { 
+        width: 100%;
+        margin-top: 3%;
+        align-items: center;
+    }
+    
+    .card-items {
+        width: 100%;
+        display: inline-block;
+        margin-top: 1%;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        border: none;
+        border-radius: 0px 10px 10px 0px;
+    }
+    
+    .card-img { 
+        width: 50%;
+        height: 150px;
+        float: left;
+    }
+    
+    .card-text{
+        width: 50%;
+        float: left;
+        height: 150px;
+    }
+    
+    .mr-10 {
+        margin-left: 0px;
+    }
+
+    .sec-mr-10 {
+        margin-left: 0px;
+    }
+    
+    .mb-3{
+        margin-top: 3%;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .user {
+        width: 40%;
+        display: block;
+        padding: 10px;
+        position: absolute;
+        left: 10px;
+    }
+    .login {
+        width: 50%;
+        padding: 10px;
+        text-align: center;
+        display: inline;
+        margin-left: 20px;
+    }
+    .login-a {
+        text-decoration: none;
+        color: white;
+        opacity: 0.8;
+    }
+    
+    .create {
+        width: 50%;
+        padding: 10px;
+        display: inline;
+        margin-left: 20px;
+    }
+    
+    .create-button {
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+    }
+    .title {
+        font-size: 23px;
+    }
+    .inputs {
+        width: 94%;
+        padding: 10px;
+        margin-top: 2%;
+        margin-left: 0px;
+    }
+
+    .input-1 {
+        width: 100%;
+        display: block;
+        padding: 10px;
+        margin-left: 0px;
+    }
+    
+    svg {
+        margin-left: -46%;
+        margin-top: 12px;
+        height: 35px;
+        line-height: auto;
+        position: absolute;
+        color: #636f88;
+    }
+    .input-2{
+        margin-left: 0px;
+        width: 100%;
+        padding: 10px;
+        padding-left: 30px;
+        display: block;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+
+
+}
